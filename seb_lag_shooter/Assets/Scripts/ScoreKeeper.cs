@@ -12,6 +12,7 @@ public class ScoreKeeper : MonoBehaviour {
     void Start() {
         Enemy.OnDeathStatic += OnEnemyKilled;
         FindObjectOfType<Player>().OnDeath += OnPlayerDeath;
+        score = 0;
     }
 
     void OnEnemyKilled() {
