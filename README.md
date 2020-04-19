@@ -1,2 +1,2 @@
 # capsule-shooter-game
-Game made with Unity followwing Sebastian Lague's tutorials
+Game made with Unity following Sebastian Lague's tutorials
