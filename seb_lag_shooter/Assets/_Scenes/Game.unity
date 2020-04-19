@@ -27587,10 +27587,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69c3b9559ec62f4eb840d9be8950e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  devMode: 1
+  devMode: 0
   waves:
   - infinite: 0
-    enemyCount: 0
+    enemyCount: 20
     timeBetweenSpawns: 1.5
     moveSpeed: 2
     hitsToKillPlayer: 7
@@ -27611,9 +27611,9 @@ MonoBehaviour:
     enemyHealth: 1
     skinColor: {r: 1, g: 0.9197526, b: 0, a: 1}
   - infinite: 0
-    enemyCount: 40
-    timeBetweenSpawns: 1.2
-    moveSpeed: 1
+    enemyCount: 35
+    timeBetweenSpawns: 1
+    moveSpeed: 1.5
     hitsToKillPlayer: 5
     enemyHealth: 3
     skinColor: {r: 0, g: 0.5943396, b: 0.552698, a: 1}
